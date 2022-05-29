@@ -11,13 +11,12 @@ Create an account in (https://www.themoviedb.org/), click on the API link from t
 5. Open the localhost link from terminal and thats it.
 
 ## How to deploy in Heroku:
-$ heroku login
-$ heroku git:clone -a NAME_OF_APP
-$ heroku git:clone -a NAME_OF_APP
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
-Thats it!
+1. $ heroku login
+2. $ heroku git:clone -a NAME_OF_APP
+3. $ heroku git:clone -a NAME_OF_APP
+4. $ git add .
+5. $ git commit -am "make it better"
+6. $ git push heroku master
 
 ## Similarity Score :
 It is a numerical value ranges between zero to one which helps to determine how much two items are similar to each other on a scale of zero to one. This similarity score is obtained measuring the similarity between the text details of both of the items. So, similarity score is the measure of similarity between given text details of two items. This can be done by cosine-similarity.
@@ -25,7 +24,8 @@ It is a numerical value ranges between zero to one which helps to determine how 
 ## How Cosine Similarity works?
 Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
 
-![Uploading image.png…]
+![2b4a7a82-ad4c-4b2a-b808-e423a334de6f](https://user-images.githubusercontent.com/82320159/170870950-e9023f72-1b27-42ce-8ebb-4a6581a5e487.png)
+
 
 ## Sources of the datasets
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
