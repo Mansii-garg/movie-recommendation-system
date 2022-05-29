@@ -6,9 +6,11 @@ Create an account in (https://www.themoviedb.org/), click on the API link from t
 ## How to run the project?
 1. Clone or download this repository to your local machine.
 2. Install all the libraries mentioned in the requirements.txt file with the command pip install -r requirements.txt
-3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
-4. Open your terminal/command prompt from your project directory and run the file main.py by executing the command streamlit run main.py.
-5. Open the localhost link from terminal and thats it.
+3. Run the movie-recommender nb file in jupiter notebook and it it create three pkl file in the notebook directory.
+4. Copy these three pkl files and paste them in your project working environment directory.
+5. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
+6. Open your terminal/command prompt from your project directory and run the file main.py by executing the command streamlit run main.py.
+7. Open the localhost link from terminal and thats it.
 
 ## How to deploy in Heroku:
 1. $ heroku login
